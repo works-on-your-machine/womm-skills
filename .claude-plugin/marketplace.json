@@ -1,0 +1,30 @@
+{
+  "name": "womm-skills",
+  "owner": {
+    "name": "Scott Werner",
+    "url": "https://worksonmymachine.ai"
+  },
+  "metadata": {
+    "description": "Self-improving skill suite for building software with AI",
+    "version": "1.0.0",
+    "repository": "https://github.com/works-on-your-machine/womm-skills"
+  },
+  "plugins": [
+    {
+      "name": "womm-skills",
+      "description": "Self-improving skill suite for building software with AI",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/about",
+        "./skills/design-doc",
+        "./skills/epic-breakdown",
+        "./skills/implementation-plan",
+        "./skills/implement",
+        "./skills/golden-spec-create",
+        "./skills/upstream-sync",
+        "./skills/fork-share"
+      ]
+    }
+  ]
+}
