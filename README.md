@@ -110,6 +110,7 @@ git fetch upstream
 
 ## Links
 
+- **Announcement:** [The Ghost in the Funnel](https://worksonmymachine.ai/p/the-ghost-in-the-funnel) — the post that explains why this exists
 - **Repository:** [github.com/works-on-your-machine/womm-skills](https://github.com/works-on-your-machine/womm-skills)
 - **Website:** [skills.worksonmymachine.ai](https://skills.worksonmymachine.ai)
 - **Newsletter:** [worksonmymachine.ai](https://worksonmymachine.ai)
