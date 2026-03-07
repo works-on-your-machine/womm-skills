@@ -79,5 +79,5 @@ Write current `upstream/main` SHA to `.womm-upstream-sync`. Include in the sync 
 
 ### 8. Remind About Plugin Reinstall
 
-- **If skills changed:** Tell the user to run `cd ~/.womm-skills && claude /plugin install .`
+- **If skills changed:** Tell the user to run `claude plugin install womm-skills@womm-skills`
 - **If only golden specs changed:** No reinstall needed — golden specs are read directly from disk

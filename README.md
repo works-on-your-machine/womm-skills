@@ -18,8 +18,11 @@ cd ~/.womm-skills
 # 2. Set upstream so you can pull future updates
 git remote add upstream https://github.com/works-on-your-machine/womm-skills
 
-# 3. Install as a Claude Code plugin
-claude /plugin install .
+# 3. Register as a local plugin marketplace
+claude plugin marketplace add ~/.womm-skills
+
+# 4. Install the plugin
+claude plugin install womm-skills@womm-skills
 ```
 
 ### Option B: Plugin Marketplace
@@ -87,7 +90,7 @@ Skills are the stable process. Golden specs are the growing knowledge.
 
 **Add golden specs:** Solve a problem, run `/golden-spec-create`, and the spec is written to `~/.womm-skills/golden-specs/`. Available in every project immediately.
 
-**Modify skills:** Edit any `SKILL.md` in your fork. Your changes persist across plugin reinstalls only if you reinstall from your fork.
+**Modify skills:** Edit any `SKILL.md` in your fork. After editing, refresh the cache by running `claude plugin install womm-skills@womm-skills`.
 
 **Add skills:** Create a new directory under `skills/` with a `SKILL.md` (YAML frontmatter + markdown instructions), add optional `references/` for templates, and update `.claude-plugin/marketplace.json`.
 

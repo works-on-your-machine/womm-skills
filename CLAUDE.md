@@ -29,7 +29,7 @@ The `description` field in frontmatter doubles as the trigger — it tells Claud
 
 ## Two Mechanisms: Skills vs Golden Specs
 
-- **Skills** are installed via Claude Code's plugin system (`claude /plugin install .`). Cached, available everywhere. Reinstall when upstream adds new skills.
+- **Skills** are installed via Claude Code's plugin system (`claude plugin install womm-skills@womm-skills`). Cached, available everywhere. Reinstall when upstream adds new skills.
 - **Golden specs** are flat markdown files at `~/.womm-skills/golden-specs/`, referenced by `~/.claude/CLAUDE.md`. Read directly from disk — no reinstall needed. Write a new one and it's available in every project immediately.
 
 This separation exists because the plugin system copies files to cache (designed for static suites), but golden specs need to grow over time.
